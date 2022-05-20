@@ -12,7 +12,6 @@ const Em = styled.span`
     font-style: normal;
     font-weight: 700;
 `
-
 const Logo = styled.img`
 margin:0.5em;
 width:7vw;
@@ -26,9 +25,9 @@ align-items:center;
 justify-content:center;
 font-size:5vw;
 margin-bottom:0.5em;
-@media only screen and (max-width: 600px) {
-    font-size:8vw;
-}
+// @media only screen and (max-width: 600px) {
+//     font-size:8vw;
+// }
 `
 
 const LayoutComp = styled.div`
