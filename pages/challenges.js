@@ -36,7 +36,7 @@ export default function ChallengesPage() {
 
     const node = React.useRef();
 
-    return <Layout>
+    return (<Layout>
         <NavBar />
         <div className="menu" ref={node}>
             <Hamburger open={open} setOpen={setOpen} />
@@ -57,5 +57,5 @@ export default function ChallengesPage() {
          ()=> {setMore(!more); setBtntext(!btntext)}
         }>{btntext ? "Show Less" : "Show More"}</Button>
         {} */}
-    </Layout>
+    </Layout>)
 }

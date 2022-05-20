@@ -46,7 +46,7 @@ export default function NavBar() {
 
     const r = useRouter();
 
-    return <NavbarComp>
+    return (<NavbarComp>
         <Logo
             src="/logo-horizontal.svg"
             onClick={
@@ -90,5 +90,5 @@ export default function NavBar() {
                     }
                 }>About Us</MenuItem>
         </Lists>
-    </NavbarComp>
+    </NavbarComp>)
 }
