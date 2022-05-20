@@ -13,21 +13,21 @@ const Em = styled.span`
     font-weight: 700;
 `
 const Logo = styled.img`
-margin:0.5em;
-width:7vw;
+margin: 0.5em;
+width: 7vw;
 `
 const EarthMin = styled.div`
 font-family: 'Oxanium';
-text-transform:uppercase;
+text-transform: uppercase;
 font-weight: 400;
-display:flex;
-align-items:center;
-justify-content:center;
-font-size:5vw;
-margin-bottom:0.5em;
-// @media only screen and (max-width: 600px) {
-//     font-size:8vw;
-// }
+display: flex;
+align-items: center;
+justify-content: center;
+font-size: 5vw;
+margin-bottom: 0.5em;
+@media only screen and (max-width: 600px) {
+    font-size: 8vw;
+}
 `
 
 const LayoutComp = styled.div`
