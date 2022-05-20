@@ -24,13 +24,13 @@ export const BackButton = styled.div`
     align-items: center;
 `
 
-export const SkipButton = styled.div`
-    font-style: normal;
-    font-weight: 700;
-    font-size: 18px;
-    cursor: pointer;
-    color: #C4C4C4;
-`
+// export const SkipButton = styled.div`
+//     font-style: normal;
+//     font-weight: 700;
+//     font-size: 18px;
+//     cursor: pointer;
+//     color: #C4C4C4;
+// `
 
 const StyledIcon = styled(FaChevronLeft)`
     width: 60%;
@@ -90,18 +90,18 @@ export default function Questions() {
                     <span>Back</span>
                 </BackButton>
                 {
-                    Number(qnum) < qs.length - 1 && <SkipButton
-                        onClick={
-                            () => {
-                                r.push({
-                                    pathname: "/questions",
-                                    query: {
-                                        qnum: Number(qnum) + 1 > qs.length - 1 ? qs.length - 1 : Number(qnum) + 1,
-                                        type: qs[Number(qnum) + 1].cat
-                                    }
-                                })
-                            }
-                        }>Skip</SkipButton>
+                    // Number(qnum) < qs.length - 1 && <SkipButton
+                    //     onClick={
+                    //         () => {
+                    //             r.push({
+                    //                 pathname: "/questions",
+                    //                 query: {
+                    //                     qnum: Number(qnum) + 1 > qs.length - 1 ? qs.length - 1 : Number(qnum) + 1,
+                    //                     type: qs[Number(qnum) + 1].cat
+                    //                 }
+                    //             })
+                    //         }
+                    //     }>Skip</SkipButton>
                 }
             </TopBtns>
             <Breadcrumb />
