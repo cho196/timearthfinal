@@ -50,7 +50,7 @@ export const badResults = [
 
     },
     {
-        title: "You spent longer time for a shower",
+        title: "You spent a longer time for a shower",
         desc: "With amount of water from 5 more minutes of shower, you can do laundry for 10 more minutes or flush the toilet three times"
     },
     {
